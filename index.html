@@ -13,11 +13,12 @@
     <link 
         rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g==" crossorigin="anonymous" />
     <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 <body>
      <header class="header">
-         <nav class="navigation">
+         <nav class="navigation container">
 
             <!--Text Webstudio-->
              <a class="logo-link link" href="./index.html" lang="en">
@@ -40,6 +41,8 @@
              </ul>
          </nav>     
      </header>
+
+     <div class="container"></div>
 
      <main class="main">
 
@@ -120,12 +123,15 @@
      </main>
 
      <footer class="footer">
-        <!--Adress-->
+         <div class="container">
+            <!--Adress-->
+            <div class="logo-icon">
             <a class="logo link" href="./index.html" lang="en">
                Web<span class="logo-secondary-footer">Studio</span></a>
-
+            </div>
+            <div>
                <address class="text-address">г. Киев, пр-т Леси Украинки, 26</address>
-               <ul>
+               <ul class="contact-lists">
                    <li class="list">
                        <a class="contact-link-tel-footer link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                    </li>
@@ -133,6 +139,8 @@
                        <a class="contact-link-mail-footer link" href="tel:+380961111111">+38 096 111 11 11</a>
                    </li>
                </ul>
+            </div>
+         </div>
      </footer>
           
 </body>
