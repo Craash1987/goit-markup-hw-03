@@ -80,9 +80,11 @@ img {
 }
 
 /*============WebStudio============*/
-/*NAV webstudio and portfolio */
+
+/*======Header=======*/
 .header .container {
-  display: flex;
+  display: flex;`
+  align-items: center;
 }
 
 .logo-link {
@@ -104,13 +106,14 @@ img {
 .navigation-list-header {
   display: flex;
   align-items: center;
+  margin-left: auto;
 }
 
-.navigation-list-item:not(:last-child) {
-  
+.contact-link-mail {
+  margin-right: 50px;
 }
 
-
+/*NAV webstudio and portfolio */
 /*LOGO*/
 .logo-link,
 .logo-link-secondary,
