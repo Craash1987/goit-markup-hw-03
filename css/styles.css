@@ -434,10 +434,41 @@ img {
 }
 /*=============portfolio===================*/
 .title-page {
+  display: none;
   color: var(--primary-white-color);
 }
 
 /*=======potfolio-toolbar=======*/
+
+.potfolio-toolbar-lists {
+  display: flex;
+  justify-content: center;
+  padding-top: 94px;
+  padding-bottom: 50px;
+ }
+
+.potfolio-toolbar-item:not(:last-child) {
+ margin-right: 8px;
+}
+
+.project-lists {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+  padding-bottom: 94px;
+}
+
+.project-list-item {
+  margin: 15px;
+}
+
+.Project-characteristics {
+  padding: 20px 24px;
+}
+
+.project-title {
+  margin-bottom: 4px;
+}
 
 /*===Main conteiner toolbar*/
 
