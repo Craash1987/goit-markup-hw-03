@@ -467,6 +467,7 @@ img {
 /*===Main conteiner toolbar*/
 
 .potfolio-toolbar-btn {
+  padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
@@ -501,7 +502,7 @@ img {
 }
 
 .project-link-img {
-  width: 370px;
+  width: 368px;
   height: 294px;
 }
 
