@@ -434,11 +434,14 @@ img {
 
 /*=======potfolio-toolbar=======*/
 
+.potfolio-btns {
+  padding-top: 94px;
+}
+
 .potfolio-toolbar-lists {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
  }
 
 .potfolio-toolbar-item:not(:last-child) {
