@@ -116,13 +116,6 @@ img {
   margin-right: 50px;
 }
 
-
-/*======Main======*/
-.main-service {
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
-
 /*NAV webstudio and portfolio */
 /*LOGO*/
 .logo-link,
@@ -199,15 +192,23 @@ img {
 }
 
 /*===Service===*/
+.main-service {
+  width: 696px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .service {
   background: var(--footer-service-background-color);
 }
 
 .service-idea {
-  width: 696px;
-  height: 120px;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 30px;
 
   font-weight: 900;
