@@ -451,7 +451,7 @@ img {
 .project-lists {
   display: flex;
   flex-wrap: wrap;
-  margin: -15px;
+  margin: 0 -15px;
   padding-bottom: 94px;
 }
 
@@ -459,7 +459,7 @@ img {
   margin: 15px;
 }
 
-.Project-characteristics {
+.project-characteristics {
   padding: 20px 24px;
 }
 
