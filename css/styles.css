@@ -378,12 +378,7 @@ img {
 
 .logo {
   display: flex;
-  padding-top: 60px;
   margin-bottom: 20px;
-}
-
-.info-text-footer {
-  padding-bottom: 60px;
 }
 
 .text-address {
@@ -395,6 +390,7 @@ img {
 }
 
 .footer {
+  padding: 60px 0;
   background: var(--footer-service-background-color);
 }
 
