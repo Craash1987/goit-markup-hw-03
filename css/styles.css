@@ -116,6 +116,11 @@ img {
   margin-right: 50px;
 }
 
+.contact-link-tel {
+  display: flex;
+  min-width: 125px;
+}
+
 .navigation-list-link,
 .contact-link-mail,
 .contact-link-tel {
@@ -201,7 +206,6 @@ img {
 /*===Service===*/
 .main-service {
   width: 696px;
-  height: 200px;
   margin-left: auto;
   margin-right: auto;
 }
