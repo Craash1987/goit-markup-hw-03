@@ -440,6 +440,7 @@ img {
 
 .potfolio-btns {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .potfolio-toolbar-lists {
@@ -456,7 +457,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin: 0 -15px;
-  padding-bottom: 94px;
 }
 
 .project-list-item {
