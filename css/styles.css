@@ -81,6 +81,8 @@ img {
 /*============WebStudio============*/
 
 /*======Header=======*/
+
+
 .header .container {
   display: flex;
   align-items: center;
@@ -114,11 +116,6 @@ img {
 
 .contact-link-mail {
   margin-right: 50px;
-}
-
-.contact-link-tel {
-  display: flex;
-  min-width: 125px;
 }
 
 .navigation-list-link,
@@ -164,6 +161,7 @@ img {
 .navigation-list-header {
   padding-left: 0;
   padding-right: 0;
+  display: flex;
 }
 
 .navigation-list-link:hover,
