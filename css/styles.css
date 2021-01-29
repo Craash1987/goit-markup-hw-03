@@ -264,8 +264,8 @@ img {
 
 .advantage-lists {
   display: flex;
-  width:270px;
-  height: 101px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .advantage-lists-list:not(:last-child) {
