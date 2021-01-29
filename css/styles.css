@@ -114,15 +114,15 @@ img {
   margin-left: auto;
 }
 
-.contact-link-mail {
-  margin-right: 50px;
-}
-
 .navigation-list-link,
 .contact-link-mail,
 .contact-link-tel {
   padding-top: 32px;
   padding-bottom: 33px;
+}
+
+.contact-list-mail {
+  margin-right: 50px;
 }
 
 /*NAV webstudio and portfolio */
