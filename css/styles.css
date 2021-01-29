@@ -257,7 +257,7 @@ img {
 }
 
 /*=======Advantage container=======*/
-.advantage-box .container {
+.advantage-box {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -293,6 +293,9 @@ img {
 }
 
 /*=======WORK instrument=======*/
+.work-instrument {
+  padding-bottom: 94px;
+}
 
 .work-title {
   margin-bottom: 50px;
@@ -300,7 +303,6 @@ img {
 
 .work-instrument-lists {
   display: flex;
-  padding-bottom: 94px;
 }
 
 .work-instrument-list:not(:last-child) {
@@ -318,14 +320,18 @@ img {
 
 /*===About Work team===*/
 
-.our-work-team {
+.about-work-team {
+  display: flex;
   padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.our-work-team {
   margin-bottom: 50px;
 }
 
 .work-team-lists {
   display: flex;
-  padding-bottom: 94px;
 }
 
 .work-team-card:not(:last-child) {
